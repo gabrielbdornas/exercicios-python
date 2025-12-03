@@ -15,10 +15,9 @@ Sua tarefa é retornar uma nova `string` igual à original, mas sem o caractere 
 As regras são:
 
 - Se `index` for válido, remova o caractere daquela posição.
-    Exemplo: apaga('kitten', 1) → 'ktten'
-    Exemplo: apaga('kitten', 4) → 'kittn'
+    Exemplo: apaga('batatinha', 1) → 'btatinha'
+    Exemplo: apaga('batatinha', 4) → 'batainha'
 
 - Se `index` for maior ou igual ao tamanho da palavra, retorne a `string` original sem alterações.
-    Exemplo: apaga('kitten', 4) → 'kittn'
 
 Atenção: utilize return, não print.
