@@ -1,4 +1,4 @@
-from _divisao_03_e_05.main import resposta
+from divisao_03_e_05.main import resposta
 import inspect
 import pytest
 
