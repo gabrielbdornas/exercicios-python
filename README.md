@@ -18,13 +18,21 @@ Siga os passos abaixo para configurar o projeto localmente:
    cd exercicios-python
    ```
 
-2. Instale as dependências do projeto com Poetry:
+2. Ative o ambiente virtual
+
+    ```sh
+    eval $(poetry env activate)
+    ```
+
+3. Instale as dependências do projeto com Poetry:
 
    ```sh
    poetry install
    ```
 
 ## Comandos importantes
+
+Lembre-se ativar o ambiente virtual antes de rodar os comandos.
 
 - Executar todos os testes do diretório. 
     ```sh
