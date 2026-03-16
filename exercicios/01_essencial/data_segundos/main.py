@@ -1,2 +1,2 @@
-def resposta():
+def resposta(dias, horas, minutos, segundos):
     pass

@@ -3,10 +3,10 @@ import inspect
 import pytest
 
 def test_not_none():
-    assert resposta(4) is not None, "Esperado valor diferente de 'None'"
+    assert resposta(4, 10, 12, 60) is not None, "Esperado valor diferente de 'None'"
 
 def test_type():
-    assert type(resposta(4)) == int, "Esperado um inteiro"
+    assert type(resposta(4, 10, 12, 60)) == int, "Esperado um inteiro"
 
 
 def test_parameters():
