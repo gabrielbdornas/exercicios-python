@@ -28,8 +28,4 @@ Regras:
 - Continuar o cálculo até que a população de A seja maior ou igual à de B
 - Contar e retornar o número de anos necessários
 
-Exemplos:
-
-- `resposta()` → `63`
-
 **Atenção:** utilize `return`, não `print`.
