@@ -13,9 +13,7 @@ Praticar o uso de laços de repetição e lógica sequencial para gerar uma sequ
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função deverá receber um número inteiro positivo `n` e retornar uma lista contendo os `n` primeiros elementos da sequência de Fibonacci.
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esse valor será passado como parâmetro para a função `resposta`.
+ A sequência de Fibonacci é a seguinte: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... Sua regra de formação é simples: os dois primeiros elementos são 1; a partir de então, cada elemento é a soma dos dois anteriores. Faça um algoritmo que leia um número inteiro calcule o seu número de Fibonacci. A função deverá receber um número inteiro positivo `n` e retornar o inteiro correspondente `n`da sequência de Fibonacci.
 
 Regras:
 
@@ -23,14 +21,13 @@ Regras:
   - 1, 1
 - Cada elemento seguinte é a soma dos dois anteriores
 - Se `n` for 1, retornar `[1]`
-- Se `n` for maior que 1, construir a sequência até atingir `n` elementos
-- Retornar a lista com os valores gerados
+- Retornar o inteiro `n` da sequência Fibonacci
 
 Exemplos:
 
-- `resposta(1)` → `[1]`
-- `resposta(2)` → `[1, 1]`
-- `resposta(5)` → `[1, 1, 2, 3, 5]`
-- `resposta(7)` → `[1, 1, 2, 3, 5, 8, 13]`
+- `resposta(1)` → 1
+- `resposta(2)` → 1
+- `resposta(5)` → 5
+- `resposta(7)` → 13
 
 **Atenção:** utilize `return`, não `print`.
