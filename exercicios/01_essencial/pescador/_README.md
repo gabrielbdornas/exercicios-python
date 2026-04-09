@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Operações Aritméticas, Estruturas Condicionais (if), Operadores de Comparação, Funções, Parâmetros, Instrução return
+Tags: Variáveis, Operações Aritméticas, Estruturas Condicionais (if), Operadores de Comparação, Tuplas
 Nível: Iniciante
 ---
 
@@ -17,8 +17,6 @@ A função deverá receber um valor numérico representando o peso de peixes (em
 
 - O excesso de peso (em quilos)
 - O valor da multa (em reais)
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esse valor será passado como parâmetro para a função `resposta`.
 
 Regras:
 
