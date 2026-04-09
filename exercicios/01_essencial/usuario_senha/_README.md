@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Strings, Estruturas Condicionais (if), Operadores de Comparação, Laços de Repetição (while), Funções, Parâmetros, Instrução return
+Tags: Variáveis, Strings, Estruturas Condicionais (if), Operadores de Comparação, Laços de Repetição (while)
 Nível: Iniciante
 ---
 
@@ -22,8 +22,6 @@ E deverá retornar uma string indicando:
 
 - `"válido"` caso a senha seja diferente do nome de usuário
 - `"erro"` caso a senha seja igual ao nome de usuário
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
 
 Regras:
 
