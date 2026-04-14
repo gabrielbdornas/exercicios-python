@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Operações Aritméticas, Operadores de Comparação, Laços de Repetição (while), Funções, Parâmetros, Instrução return
+Tags: Variáveis, Operações Aritméticas, Operadores de Comparação, Laços de Repetição (while)
 Nível: Intermediário
 ---
 
@@ -14,8 +14,6 @@ Praticar o uso de laços de repetição e lógica matemática para resolver prob
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
 A função deverá receber dois números inteiros positivos e retornar o valor do máximo divisor comum (MDC) entre eles.
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
 
 Regras:
 
