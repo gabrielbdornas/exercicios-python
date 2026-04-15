@@ -1,5 +1,5 @@
 ---
-Tags: Listas, Métodos de Lista  
+Tags: Listas, Métodos de Lista, Laços de Repetição (for)
 Nível: Iniciante
 ---
 
@@ -24,8 +24,8 @@ Regras:
 
 Exemplos:
 
-- `primeira = [1, 2, 3]`  
-- `segunda = [4, 5, 6]`  
-- `resposta[1, 2, 3, 4, 5, 6]`  
+- `primeira = [1, 2, 3]`
+- `segunda = [4, 5, 6]`
+- `resposta = [1, 2, 3, 4, 5, 6]`
 
 **Atenção:** utilize `return`, não `print`.
