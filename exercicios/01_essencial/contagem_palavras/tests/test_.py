@@ -1,14 +1,14 @@
-from metro_milimetro.main import resposta
+from contagem_palavras.main import resposta
 import inspect
 import pytest
 
 
 def test_not_none():
-    assert resposta(10) is not None, "Esperado valor diferente de 'None'"
+    assert resposta("Teste teste teste") is not None, "Esperado valor diferente de 'None'"
 
 
 def test_type():
-    assert type(resposta(13)) == int or type(resposta(3.2)) == float, "Esperado um inteiro ou float"
+    assert type(resposta("Teste teste teste")) == dict, "Esperado um dicionário"
 
 
 def test_parameters():
@@ -16,6 +16,8 @@ def test_parameters():
 
 
 def test_options_resposta():
-    assert resposta(10) == 10000, f"Esperado valor 10000"
-    assert resposta(1.2) == 1200, f"Esperado valor 1200"
-    assert resposta(0.93) == 930, f"Esperado valor 930"
+    esperado1 = {'hoje': 2, 'foi': 2, 'um': 1, 'dia': 1, 'bom': 1, 'especial': 1}
+    esperado2 = {'não': 1, 'pare': 1, 'de': 1, 'acreditar': 1}
+
+    assert resposta("hoje foi um dia bom hoje foi especial") == esperado1, f"Esperado valor {esperado1}"
+    assert resposta("não pare de acreditar") == esperado2, f"Esperado valor {esperado2}"
