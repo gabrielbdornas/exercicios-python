@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Operações Aritméticas
+Tags: Variáveis, Operações Aritméticas, Tuplas
 Nível: Iniciante
 ---
 
@@ -15,15 +15,13 @@ Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
 A função deverá receber dois valores numéricos:
 
-- O preço da mercadoria  
-- O percentual de desconto  
+- O preço da mercadoria
+- O percentual de desconto
 
 E deverá retornar uma tupla contendo:
 
-- O valor do desconto  
-- O preço final a pagar  
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
+- O valor do desconto
+- O preço final a pagar
 
 Regras:
 
@@ -35,7 +33,7 @@ Regras:
 
 Exemplos:
 
-- `resposta(100, 10)` → `(10, 90)`  
-- `resposta(200, 25)` → `(50, 150)`  
+- `resposta(100, 10)` → `(10, 90)`
+- `resposta(200, 25)` → `(50, 150)`
 
 **Atenção:** utilize `return`, não `print`.
