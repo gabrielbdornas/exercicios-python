@@ -15,8 +15,6 @@ Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
 A função deverá receber três valores numéricos e retornar o maior entre eles.
 
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
-
 Regras:
 
 - Comparar os três valores informados
@@ -25,8 +23,8 @@ Regras:
 
 Exemplos:
 
-- `resposta(10, 20, 5)` → `20`  
-- `resposta(7, 3, 9)` → `9`  
-- `resposta(4, 4, 2)` → `4`  
+- `resposta(10, 20, 5)` → `20`
+- `resposta(7, 3, 9)` → `9`
+- `resposta(4, 4, 2)` → `4`
 
 **Atenção:** utilize `return`, não `print`.
