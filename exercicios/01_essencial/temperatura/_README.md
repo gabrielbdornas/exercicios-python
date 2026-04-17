@@ -15,14 +15,12 @@ Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
 A função deverá receber dois valores:
 
-- Um valor numérico representando a temperatura  
+- Um valor numérico representando a temperatura
 - Uma string indicando o tipo de conversão:
-  - `"C"` para converter de Celsius para Fahrenheit  
-  - `"F"` para converter de Fahrenheit para Celsius  
+  - `"C"` para converter de Celsius para Fahrenheit
+  - `"F"` para converter de Fahrenheit para Celsius
 
 E deverá retornar o valor da temperatura convertida.
-
-Caso o exercício original peça entrada de dados com `input()`, considere que esses valores serão passados como parâmetros para a função `resposta`.
 
 Regras:
 
@@ -35,8 +33,8 @@ Regras:
 
 Exemplos:
 
-- `resposta(0, "C")` → `32`  
-- `resposta(32, "F")` → `0`  
-- `resposta(100, "C")` → `212`  
+- `resposta(0, "C")` → `32`
+- `resposta(32, "F")` → `0`
+- `resposta(100, "C")` → `212`
 
 **Atenção:** utilize `return`, não `print`.
