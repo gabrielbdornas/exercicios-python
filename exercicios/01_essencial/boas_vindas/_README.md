@@ -1,5 +1,5 @@
 ---
-Tags: Variáveis, Strings, Funções
+Tags: Variáveis, Strings
 Nível: Iniciante
 ---
 
@@ -15,7 +15,6 @@ Abra o arquivo main.py. Dentro dele, localize a função resposta.
 
 A função deverá receber um valor do tipo string representando o nome do usuário e retornar uma mensagem de boas-vindas personalizada.
 
-Caso o exercício original peça entrada de dados com `input()`, considere que esse valor será passado como parâmetro para a função resposta.
 
 Regras:
 
@@ -25,7 +24,7 @@ Regras:
 
 Exemplos:
 
-- `resposta("João")` → `"Bem-vindo, João!"`  
-- `resposta("Maria")` → `"Bem-vindo, Maria!"`  
+- `resposta("João")` → `"Bem-vindo, João!"`
+- `resposta("Maria")` → `"Bem-vindo, Maria!"`
 
 **Atenção:** utilize return, não print
