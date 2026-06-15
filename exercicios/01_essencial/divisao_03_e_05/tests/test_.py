@@ -17,3 +17,5 @@ def test_options_resposta():
     assert resposta(5) == 'Buzz' , f"Esperado valor 'Buzz'"
     assert resposta(15) == 'FizzBuzz' , f"Esperado valor 'FizzBuzz'"
     assert resposta(2) == 2, f" Esperando 2"
+    assert resposta(30) == 'FizzBuzz', f" Esperando 'FizzBuzz'"
+    assert resposta(23) == 23, f" Esperando 23"
