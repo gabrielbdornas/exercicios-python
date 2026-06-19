@@ -1,5 +1,5 @@
 ---
-Tags: Dicionários, Estruturas Condicionais (if)
+Tags: Dicionários
 Nível: Iniciante
 ---
 
@@ -13,16 +13,16 @@ Praticar o acesso seguro a valores de um dicionário com o método `get`. Difere
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função recebe um dicionário (`dicionario`) e uma chave (`chave`). Retorne o valor associado a essa chave. Se a chave **não existir** no dicionário, retorne `None`.
+A função recebe os parâmetros `dicionario` (um dicionário) e `chave`. Retorne o valor associado a essa chave. Se a chave **não existir** no dicionário, retorne `None`.
 
 Regras:
 
-- Utilize o método `get` para acessar o valor.
+- Utilize o método `get` para acessar o valor;
 - Não utilize colchetes (`dicionario[chave]`), pois isso gera erro quando a chave não existe.
 
 Exemplos:
 
-- `resposta({'nome': 'Ana'}, 'nome')` deve retornar `'Ana'`
-- `resposta({'nome': 'Ana'}, 'idade')` deve retornar `None`
+- `resposta({'nome': 'Ana'}, 'nome')` → `'Ana'`
+- `resposta({'nome': 'Ana'}, 'idade')` → `None`
 
 **Atenção:** utilize `return`, não `print`.

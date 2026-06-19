@@ -1,2 +1,2 @@
-def resposta():
+def resposta(dicionario, chave):
     pass
