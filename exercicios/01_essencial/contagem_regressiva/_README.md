@@ -13,18 +13,18 @@ Praticar o laço `while` controlado por um contador que diminui a cada repetiç�
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função recebe um número inteiro `n` e deve retornar uma **lista** com os números de `n` até `1`, em ordem decrescente. A lista deve ser construída usando um laço `while`.
+A função recebe o parâmetro `n` (um número inteiro) e deve retornar uma **lista** com os números de `n` até `1`, em ordem decrescente. A lista deve ser construída usando um laço `while`.
 
 Regras:
 
-- Utilize obrigatoriamente o laço `while`.
-- Não utilize `range()` nem o laço `for`.
+- Utilize obrigatoriamente o laço `while`;
+- Não utilize `range()` nem o laço `for`;
 - Se `n` for menor que `1`, retorne uma lista vazia (`[]`).
 
 Exemplos:
 
-- `resposta(5)` deve retornar `[5, 4, 3, 2, 1]`
-- `resposta(1)` deve retornar `[1]`
-- `resposta(0)` deve retornar `[]`
+- `resposta(5)` → `[5, 4, 3, 2, 1]`
+- `resposta(1)` → `[1]`
+- `resposta(0)` → `[]`
 
 **Atenção:** utilize `return`, não `print`.
