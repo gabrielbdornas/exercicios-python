@@ -1,2 +1,4 @@
 def resposta(lista1, lista2):
-    pass
+    for item in lista2:
+        lista1.insert(len(lista1), item)
+    return lista1
